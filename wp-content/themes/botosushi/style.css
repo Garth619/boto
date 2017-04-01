@@ -1150,3 +1150,91 @@ img#wpstats{display:none}
 #main{display:inline}
 .home .sticky{border:none}
 }
+
+
+
+
+/* Overlay */
+
+
+
+
+.first_time_overlay {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:10000;
+	background: rgba(0, 0, 0, 0.8);
+	width:100%;
+	height:100%;
+	overflow-y:scroll;
+/* 	display: none; */
+}
+
+.first_time_overlay_inner {
+	background: rgba(0, 0, 0, 0) url("images/bg-feedback.jpg") no-repeat scroll 0 0 / cover ;
+	max-width:600px;
+	width:90%;
+	position: relative;
+	display: block;
+	margin:10% auto 10%;
+	padding:50px 30px;
+	text-align: center;
+	
+}
+
+
+.first_time_overlay_inner span.upcoming {
+	display: block;
+	color:#000;
+	font-size:24px;
+	line-height: 33px;
+	
+	max-width: 450px;
+	margin:0 auto 25px;
+}
+
+span.my_close {
+	position: absolute;
+	top:25px;
+	right:25px;
+	font-size:18px;
+	text-transform: uppercase;
+	color:#A81412;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.overlay_logo {
+	display: block;
+	margin:0 auto 40px;
+	
+	
+}
+
+.overlay_red {
+	color:#A81412;
+	display: inline;
+}
+
+.continue {
+	background: #A81412;
+	color:#fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size:17px;
+	padding:10px 20px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	margin-top:15px;
+	
+}
+
+.continue:hover {
+	
+		background:#9CD1E6;
+	
+}
+
+

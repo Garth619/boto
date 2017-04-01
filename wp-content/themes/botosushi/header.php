@@ -1,4 +1,12 @@
 <?php
+    // Top of the page, before sending out ANY output to the page.
+        $user_is_first_timer = !isset( $_COOKIE["FirstTimer"] );
+
+    // Set the cookie so that the message doesn't show again
+        setcookie( "FirstTimer", 1, strtotime( '+1 year' ) );
+?>
+
+<?php
 /**
  * Header template for our theme
  *
@@ -25,7 +33,7 @@
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=2" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
 
@@ -43,6 +51,33 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
+	<?php if( $user_is_first_timer ): ?>
+	
+	<div class="first_time_overlay">
+		
+		<div class="first_time_overlay_inner">
+			
+			<span class="my_close">X Close</span><!-- my_close -->
+			
+			<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/logo.png"/>
+			
+			<span class="upcoming">Sunday will be open <span class="overlay_red">starting 4/30/17 2pm - 9 pm</span></span>
+			
+			<span class="upcoming">All day Happy Hour Menu Sunday opening promotion <span class="overlay_red">until 5/14/17</span></span>
+			
+			<span class="upcoming">And <span class="overlay_red">after 5/14/17</span> Happy Hour will be 2-5 pm on every sunday only</span>
+			
+			<span class="continue">Continue to Site</span><!-- continue -->
+			
+		</div><!-- first_time_overlay_inner -->
+		
+	</div><!-- first_time_overlay -->
+	
+	<?php endif;?>
+
+	
+	
 	
 	<script>
 		jQuery(document).on('click', '.menu-mobile #nav-toggle', function () {

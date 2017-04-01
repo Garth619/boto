@@ -27,6 +27,10 @@
 					</div><!-- #access -->
 				</div>
 	</div>
+	
+		
+	
+	
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,6 +42,22 @@
 
 </script>
 <script type='text/javascript' src="<?php bloginfo('template_url') ?>/js/o0o.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+
+jQuery('span.my_close, span.continue').click(function(){
+	
+	jQuery('.first_time_overlay').fadeOut(200);
+	
+	
+});
+
+
+}); // Document Ready
+
+</script>
 <?php
 	/*
 	 * Always have wp_footer() just before the closing </body>
