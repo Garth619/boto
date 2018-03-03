@@ -1,9 +1,9 @@
 <?php
     // Top of the page, before sending out ANY output to the page.
-        $user_is_first_timer = !isset( $_COOKIE["FirstTimer"] );
+        $user_is_first_timertwo = !isset( $_COOKIE["FirstTimertwo"] );
 
     // Set the cookie so that the message doesn't show again
-        setcookie( "FirstTimer", 1, strtotime( '+1 year' ) );
+        setcookie( "FirstTimertwo", 1, strtotime( '+1 year' ) );
 ?>
 
 <?php
@@ -33,7 +33,7 @@
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=2" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=3" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
 
@@ -52,9 +52,9 @@
 
 <body <?php body_class(); ?>>
 	
-	<?php if( $user_is_first_timer ): ?>
+	<?php if( $user_is_first_timertwo ): ?>
 	
-	<div class="first_time_overlay">
+	<div class="first_time_overlay" style="display:none;">
 		
 		<div class="first_time_overlay_inner">
 			
@@ -62,7 +62,7 @@
 			
 			<img class="overlay_logo" src="<?php bloginfo('template_directory');?>/images/logo.png"/>
 			
-			<span class="upcoming">Sunday will be open <span class="overlay_red">starting 4/30/17 2pm - 9 pm</span></span>
+<!-- 			<span class="upcoming">Sunday will be open <span class="overlay_red">starting 4/30/17 2pm - 9 pm</span></span> -->
 			
 			<span class="upcoming">All day Happy Hour Menu Sunday opening promotion <span class="overlay_red">until 5/14/17</span></span>
 			
@@ -93,10 +93,12 @@
 		<ul class="menu-desktop">
 			<li><a href="#" class="trigger-overlay menu">MENU</a></li>
 			<li>
-				<a href="">LOCATIONS</a>
+				<a href="https://www.google.com/maps/place/11835+Carmel+Mountain+Rd,+Carmel+Mountain+Ranch+Town+Center,+San+Diego,+CA+92128/@32.9798454,-117.0771351,17z/data=!3m1!4b1!4m2!3m1!1s0x80dbfa018664db7d:0xcc402e2514645ee1" target="_blank">DIRECTIONS</a>
+<!--
 				<ul>
     		  <li>SUSHIYAH - DEL MAR</li>
     		</ul>
+-->
 			</li>
 			<li><img src="<?php bloginfo('template_url') ?>/images/logo.png"/></li>
 			<li><a href="tel:8584517800">CALL US</a></li>
@@ -112,10 +114,12 @@
 						<ul>
 							<li><a href="#" class="trigger-overlay menu">MENU</a></li>
 							<li>
-								<a href="">LOCATIONS</a>
+								<a href="https://www.google.com/maps/place/11835+Carmel+Mountain+Rd,+Carmel+Mountain+Ranch+Town+Center,+San+Diego,+CA+92128/@32.9798454,-117.0771351,17z/data=!3m1!4b1!4m2!3m1!1s0x80dbfa018664db7d:0xcc402e2514645ee1" target="_blank">DIRECTIONS</a>
+<!--
 								<ul>
 								  <li>SUSHIYAH - DEL MAR</li>
 								</ul>
+-->
 							</li>
 							<li><a href="tel:8584517800">CALL US</a></li>
 							<li><a href="" class="trigger-overlay aboutus">ABOUT US</a></li>

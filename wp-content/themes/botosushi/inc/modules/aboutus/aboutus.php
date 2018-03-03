@@ -14,7 +14,7 @@
 		<p>
 			<strong>Mon-Sat</strong>    11am-10pm<br>
 <!-- 			<strong>Fri-Sat</strong>   11am-10pm<br> -->
-			<strong>Sun </strong>      Closed<br>
+			<strong>Sun </strong>      12pm-9pm<br>
 			Open Holidays
 		</p>
 	</div>
