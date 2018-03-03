@@ -10,8 +10,8 @@
 			<h2><span class="lrg-bracket">[</span><strong>Menu</strong><span class="lrg-bracket">]</span></h2>			
 			<p>Download Our Menus</p>
 <a href="<?php bloginfo('template_url') ?>/inc/modules/menu/assets/new-sushi-2-17.jpg" target="_blank" class="menu-link">SUSHI MENU</a>
-				<a href="<?php bloginfo('template_url') ?>/inc/modules/menu/assets/craft-cocktail-2-17.pdf" target="_blank" class="menu-link">BEVERAGE MENU</a>
-				<a href="<?php bloginfo('template_url') ?>/inc/modules/menu/assets/main-menu-2-17.pdf" target="_blank" class="menu-link">MAIN MENU</a>
+				<a href="<?php bloginfo('template_url') ?>/inc/modules/menu/assets/beverage-menu.pdf" target="_blank" class="menu-link">BEVERAGE MENU</a>
+				<a href="<?php bloginfo('template_url') ?>/inc/modules/menu/assets/main-menu.pdf" target="_blank" class="menu-link">MAIN MENU</a>
 			
 			<!-- <a href="#" target="_blank" class="menu-link">HAPPY HOUR</a> -->
 		</div><!-- .overlay-inner -->
