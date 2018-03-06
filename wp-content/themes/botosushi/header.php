@@ -54,7 +54,7 @@
 	
 	<?php if( $user_is_first_timertwo ): ?>
 	
-	<div class="first_time_overlay" style="display:none;">
+	<div class="first_time_overlay" style="">
 		
 		<div class="first_time_overlay_inner">
 			
@@ -64,9 +64,7 @@
 			
 <!-- 			<span class="upcoming">Sunday will be open <span class="overlay_red">starting 4/30/17 2pm - 9 pm</span></span> -->
 			
-			<span class="upcoming">All day Happy Hour Menu Sunday opening promotion <span class="overlay_red">until 5/14/17</span></span>
-			
-			<span class="upcoming">And <span class="overlay_red">after 5/14/17</span> Happy Hour will be 2-5 pm on every sunday only</span>
+			<span class="upcoming">Now open on Sunday 12 pm - 9 pm and Happy Hour will be 2 pm - 5 pm</span>
 			
 			<span class="continue">Continue to Site</span><!-- continue -->
 			
