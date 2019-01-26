@@ -52,6 +52,7 @@
 
 <body <?php body_class(); ?>>
 	
+	
 	<?php if( $user_is_first_timertwo ): ?>
 	
 	<div class="first_time_overlay" style="">

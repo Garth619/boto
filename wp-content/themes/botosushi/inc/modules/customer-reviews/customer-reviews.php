@@ -50,9 +50,9 @@
 			
 			<div class="review_links" style="display: none;">
 				<div class="review-sites">
-					<a href="https://www.facebook.com/botosushi/reviews" target="_blank" onclick="ga('send', 'event', 'star', 'click', 'facebook link');"><img src="http://botosushi.com/wp-content/themes/botosushi/images/facebook.png"/></a>	
-					<a href="https://plus.google.com/116023339522191445801/about" target="_blank" onclick="ga('send', 'event', 'star', 'click', 'google link');"><img src="http://botosushi.com/wp-content/themes/botosushi/images/google-plus.png"/></a>	
-					<a href="http://www.yelp.com/biz/boto-sushi-san-diego-4" target="_blank" onclick="ga('send', 'event', 'star', 'click', 'yelp link');"><img src="http://botosushi.com/wp-content/themes/botosushi/images/yelp.png"/></a>
+					<a href="https://www.facebook.com/botosushi/reviews" target="_blank" onclick="ga('send', 'event', 'star', 'click', 'facebook link');"><img src="//botosushi.com/wp-content/themes/botosushi/images/facebook.png"/></a>	
+					<a href="https://plus.google.com/116023339522191445801/about" target="_blank" onclick="ga('send', 'event', 'star', 'click', 'google link');"><img src="//botosushi.com/wp-content/themes/botosushi/images/google-plus.png"/></a>	
+					<a href="//www.yelp.com/biz/boto-sushi-san-diego-4" target="_blank" onclick="ga('send', 'event', 'star', 'click', 'yelp link');"><img src="//botosushi.com/wp-content/themes/botosushi/images/yelp.png"/></a>
 				</div><!-- .review-sites -->
 			</div><!-- .review_links -->
 		</div><!-- .overlay-inner -->

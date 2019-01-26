@@ -1,3 +1,0 @@
-[30-Oct-2015 15:40:09 UTC] PHP Warning:  require_once(/home/botosushi/public_html/wp-content/plugins/gravityforms/export.php): failed to open stream: No such file or directory in /home/botosushi/public_html/wp-content/plugins/gravityforms/gravityforms.php on line 178
-[30-Oct-2015 15:40:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/botosushi/public_html/wp-content/plugins/gravityforms/export.php' (include_path='.:/opt/php54/lib/php') in /home/botosushi/public_html/wp-content/plugins/gravityforms/gravityforms.php on line 178
-[02-Jan-2017 06:31:28 America/Chicago] PHP Fatal error:  Call to undefined function __() in /home/botosushi/public_html/wp-admin/menu.php on line 23
